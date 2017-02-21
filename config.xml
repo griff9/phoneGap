@@ -17,6 +17,8 @@
         Christophe Coenraets
     </author>
 
+    <gap:plugin name="org.apache.cordova.contacts" />
+    <gap:plugin name="org.apache.cordova.camera" />
+
 </widget>
-<gap:plugin name="org.apache.cordova.contacts" />
-<gap:plugin name="org.apache.cordova.camera" />
+
