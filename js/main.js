@@ -1,11 +1,11 @@
 var app = {
 
     showAlert: function (message, title) {
-      //  if (navigator.notification) {
-      //      navigator.notification.alert(message, null, title, 'OK');
-      //  } else {
+        if (navigator.notification) {
+            navigator.notification.alert(message, null, title, 'OK');
+        } else {
             alert(title ? (title + ":hokey pokey " + message) : message);
-      //  }
+        }
     },
 
     findByName: function() {
